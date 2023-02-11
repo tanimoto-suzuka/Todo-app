@@ -1,0 +1,205 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #B2B2B2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container1 {
+    border-radius: 12px;
+    background-color: #ffff;
+    width: 65%;
+    margin: 0px 3%;
+    margin-right: 2%;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.delete {
+    padding: 0;
+    color: #D35E7B;
+}
+
+.delete:hover {
+    color: #B74747;
+    font-weight: bold;
+}
+
+.container2 {
+    border-radius: 12px;
+    background-color: #ffff;
+    width: 35%;
+    margin: 0px 3%;
+    margin-left: 0;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.container2 h2 {
+    color: #C8365B;
+}
+
+.container2 .btn_action {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.container2 .btn_action a {
+    margin: 0;
+}
+
+.task__add {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.error {
+    text-align: center;
+}
+
+.error__message {
+    color: red;
+}
+
+.form {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-group {
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+span {
+    color: red;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 15px;
+}
+
+.main {
+    width: 100%;
+    padding-left: 200px;
+    margin-top: 30px;
+}
+
+.main_body {
+    margin-bottom: 80px;
+    border-radius: 12px;
+    background-color: #ffff;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.main1 {
+    width: 100%;
+    padding-left: 200px;
+    margin-top: 30px;
+}
+
+.main_body1 {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+}
+
+.table table {
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #aaa;
+    border-top-style: dashed;
+    color: #555;
+    width: 100%;
+}
+
+.table {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.link a {
+    margin: auto;
+    text-align: center;
+}
+
+.td1 {
+    padding: 10px 0 10px 0px;
+    text-align: center;
+}
+
+.td2 {
+    padding: 10px 0 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_action {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.btn_action a {
+    color: #204C78;
+}
+
+@media screen and (max-width:1000px) {
+    .main1,
+    .main {
+        padding: 0%;
+        margin-top: 80px;
+    }
+    .main_body1 {
+        display: block;
+    }
+    .main_body {
+        width: 90%;
+        padding: 10px;
+    }
+    .container1,
+    .container2 {
+        width: 95%;
+        margin: auto;
+    }
+    .container,
+    input,
+    select {
+        width: 100%;
+    }
+    .form-group {
+        width: 100%;
+    }
+}
